@@ -71,47 +71,19 @@ The project utilizes multi-modal data from video advertisements to develop a cla
 
    
 ## Project Folder Structure :file_folder:
-📦 Video_Ads_Analysis
-## Project Folder Structure
-
 ```
-📦 
-├─ .DS_Store
-├─ .github
-│  └─ workflows
-│     └─ pytest.yml
-├─ .gitignore
-├─ Airflow
-│  └─ Dags
-│     └─ issue_embedding_and_storing.py
-├─ Dockerfile
-├─ Milvus_Testing.ipynb
-├─ README.md
-├─ __init__.py
-├─ backend
-│  ├─ .DS_Store
-│  ├─ Dockerfile
-│  ├─ __init__.py
-│  ├─ database.py
-│  ├─ hashing.py
-│  ├─ main.py
-│  ├─ models.py
-│  ├─ requirements.txt
-│  └─ schema.py
-├─ bert_download.py
-├─ docker-compose.yml
-├─ docker_tag.txt
-├─ navigation
-│  ├─ __init__.py
-│  ├─ adminworkarea.py
-│  ├─ analytics.py
-│  ├─ errorsearch.py
-│  └─ issuesearch.py
-├─ pyrequirements.txt
-├─ requirements.txt
-├─ unit_testing.py
-├─ userinterface.py
-└─ utils
-   ├─ __init__.py
-   └─ core_helpers.py
+📦 Video_Ads_Analysis
+├─ data
+│  ├─ videos
+│  ├─ text
+│  └─ ground_truth
+├─ notebooks
+│  └─ Multi_Modal_Video_Ad_Analysis_with_Text_and_Visual_Integration.ipynb
+│     ├─ preprocessing.py
+│     ├─ feature_extraction.py
+│     ├─ model_training.py
+│     └─ evaluation.py
+├─ results
+│  └─ predictions.csv
+└─ README.md
 ```
