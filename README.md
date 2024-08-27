@@ -68,3 +68,18 @@ The project utilizes multi-modal data from video advertisements to develop a cla
 1. **Clone the repository:**
    ```bash
    git clone <repository-link>
+   
+📦 Video_Ads_Analysis
+├─ data
+│  ├─ videos
+│  ├─ text
+│  └─ ground_truth
+├─ notebooks
+│  └─ Multi_Modal_Video_Ad_Analysis_with_Text_and_Visual_Integration.ipynb
+│     ├─ preprocessing
+│     ├─ feature_extraction
+│     ├─ model_training
+│     └─ evaluation
+├─ results
+│  └─ predictions.csv
+└─ README.md
