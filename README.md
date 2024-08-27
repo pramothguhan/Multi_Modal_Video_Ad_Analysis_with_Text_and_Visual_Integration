@@ -68,7 +68,9 @@ The project utilizes multi-modal data from video advertisements to develop a cla
 1. **Clone the repository:**
    ```bash
    git clone <repository-link>
+
    
+## Project Folder Structure :file_folder:
 📦 Video_Ads_Analysis
 ├─ data
 │  ├─ videos
