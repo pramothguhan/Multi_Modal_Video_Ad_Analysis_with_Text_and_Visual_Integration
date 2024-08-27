@@ -72,16 +72,17 @@ The project utilizes multi-modal data from video advertisements to develop a cla
    
 ## Project Folder Structure :file_folder:
 📦 Video_Ads_Analysis
-├─ data
-│  ├─ videos
-│  ├─ text
-│  └─ ground_truth
-├─ notebooks
-│  └─ Multi_Modal_Video_Ad_Analysis_with_Text_and_Visual_Integration.ipynb
-│     ├─ preprocessing
-│     ├─ feature_extraction
-│     ├─ model_training
-│     └─ evaluation
-├─ results
-│  └─ predictions.csv
-└─ README.md
+├── data
+│ ├── videos
+│ ├── text
+│ └── ground_truth
+├── notebooks
+│ └── Multi_Modal_Video_Ad_Analysis_with_Text_and_Visual_Integration.ipynb
+├── src
+│ ├── preprocessing.py
+│ ├── feature_extraction.py
+│ ├── model_training.py
+│ └── evaluation.py
+├── results
+│ └── predictions.csv
+└── README.md
