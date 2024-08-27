@@ -1,4 +1,4 @@
-# Multi-Modal Video Ad Analysis with Text and Visual Integration :movie_camera:
+## Multi-Modal Video Ad Analysis with Text and Visual Integration :
 
 ## Overview :memo:
 
